@@ -1,0 +1,129 @@
+@import 'variables';
+
+.services {
+  margin-bottom: 44rem;
+}
+
+.about-info {
+  width: 100%;
+  display: flex;
+}
+
+.services-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-title h2 {
+  color: $text-color-1;
+  padding-top: 57rem;
+  padding-bottom: 25rem;
+  font: 500 32rem Gelasio, sans-serif;
+  line-height: 140%; /* 44.8px */
+}
+
+@media (max-width: 920px) {
+  .services-title h2 {
+    padding: 10rem;
+    font: 500 28rem Gelasio, sans-serif;
+  }
+}
+
+.services-title p {
+  color: $text-color-1;
+  font: 400 18rem Roboto, sans-serif;
+  width: 819rem;
+  padding-bottom: 60rem;
+  text-align: center;
+  line-height: 1.5; /* 28.8px */
+  opacity: .6;
+}
+
+@media (max-width: 920px) {
+  .services-title p {
+    width: 100%;
+    font: 400 17.3rem Roboto, sans-serif;
+    padding: 10rem;
+  }
+}
+
+.services-items {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  gap: 30rem;
+  margin: 0;
+  padding-bottom: 47rem;
+}
+
+@media (max-width: 920px) {
+  .services-items {
+    flex-direction: column;
+    padding: 10rem;
+  }
+}
+
+.services-item {
+  width: 100%;
+  min-height: 258rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid rgba(199, 199, 199, 0.25);;
+  //opacity: 0.1;
+  background: #FFF;
+  box-shadow: 0 4px 30px 0 rgba(199, 199, 199, 0.25);
+  transition: .7s;
+  padding: 10rem;
+}
+
+.services-item:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 30px 0 rgba(199, 199, 199, 1);
+  transition: .5s;
+}
+
+.services-item img {
+  width: 74rem;
+  height: 69.519rem;
+  margin: 21rem 0;
+}
+
+@media (max-width: 920px) {
+  .services-item img {
+    width: 60rem;
+  }
+}
+
+.services-item h3 {
+  color: $text-color-1;
+  font: 500 24rem Gelasio, sans-serif;
+  text-align: center;
+  padding-bottom: 0;
+  line-height: 1.25;
+}
+
+@media (max-width: 920px) {
+  .services-item h3 {
+    font: 500 20rem Gelasio, sans-serif;
+    padding: 8rem;
+  }
+}
+
+.services-item p {
+  color: $text-color-1;
+  font: 400 18rem Roboto, sans-serif;
+  width: 262rem;
+  padding: 15rem 17rem 17.59rem;
+  text-align: center;
+  line-height: 1.25; /* 28.8px */
+}
+
+@media (max-width: 920px) {
+  .services-item p {
+    font: 500 17.3rem Gelasio, sans-serif;
+    padding: 10rem;
+  }
+}

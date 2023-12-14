@@ -1,0 +1,154 @@
+@import 'variables';
+
+.about {
+  width: 100%;
+  min-height: 662rem;
+
+  @media (max-width: 920px) {
+    min-height: auto;
+  }
+}
+
+@media (max-width: 920px) {
+  .about-info {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.about-player {
+  width: 100%;
+  max-width: 765px;
+  height: 459rem;
+  display: inline-flex;
+  padding: 84px 21px 0 66px;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 109rem;
+}
+
+
+@media (max-width: 920px) {
+  .about-player {
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+    padding: 0;
+    z-index: 30;
+  }
+}
+
+@media (max-width: 920px) {
+  .about-player-main {
+    width: 100%;
+  }
+}
+
+.about-player-video {
+  width: 560rem;
+  height: 315rem;
+}
+
+@media (max-width: 920px) {
+  .about-player-video {
+    width: 100%; /* Чтобы видео занимало всю ширину экрана */
+    margin: 0 auto; /* Чтобы видео было выровнено по центру */
+    display: block; /* Обеспечивает корректное отображение по центру */
+
+  }
+}
+
+@media (max-width: 920px) {
+  .about-player-background {
+    display: none;
+  }
+}
+
+.about-player-background {
+  position: relative;
+  width: 484px;
+  height: 268px;
+  flex-shrink: 0;
+  z-index: 3;
+  transform: translate(57rem, -70rem);
+}
+
+.about-player-block {
+  position: absolute;
+  z-index: 4;
+  width: 228px;
+  height: 228px;
+  flex-shrink: 0;
+  transform: translate(-380rem, 90rem);
+}
+
+.about-player-main {
+  display: flex;
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+  max-width: 630rem;
+  height: 325rem;
+  flex-shrink: 0;
+}
+
+.player-btn {
+  position: absolute;
+  z-index: 6;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#openModalLink {
+  cursor: pointer;
+}
+
+.about-title {
+  padding-top: 240rem;
+  padding-left: 140rem;
+
+  @media (max-width: 920px) {
+    width: 100%;
+    padding: 5rem 5rem;
+  }
+}
+
+.about-title h4 {
+  color: #1B75BB;
+  font: 500 20rem Robot, sans-serif;
+  padding-bottom: 15rem;
+  line-height: 150%; /* 30px */
+  letter-spacing: 2rem;
+  text-transform: uppercase;
+  opacity: .8;
+
+  @media (max-width: 920px) {
+    font-size: 18rem;
+    padding: 10rem;
+    text-align: center;
+  }
+}
+
+.about-title h2 {
+  width: 436rem;
+  color: $text-color-1;
+  padding-bottom: 30rem;
+  font: 500 33rem Gelasio, sans-serif;
+  line-height: 1.25; /* 44.8px */
+
+  @media (max-width: 920px) {
+      width: 100%;
+      font: 500 19rem Robot, sans-serif;
+      padding: 10rem;
+      text-align: center;
+    }
+}
+
+
+
+
+
+
+

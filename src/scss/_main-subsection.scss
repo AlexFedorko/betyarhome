@@ -1,0 +1,78 @@
+@import 'variables';
+
+.main-subsection {
+  background: url('../img/main-background-light.jpg') center/cover;
+  width: 100%;
+  min-height: 690rem;
+  margin-top: 0;
+}
+
+.main-title {
+  padding-top: 214rem;
+
+  @media (max-width: 920px) {
+    padding: 130rem 15rem 10rem;
+  }
+}
+
+.main-title h4 {
+  color: $text-color-2;
+  padding-bottom: 15rem;
+  font: 500 20rem Roboto, sans-serif;
+  line-height: 150%;
+  letter-spacing: 2rem;
+  text-transform: uppercase;
+  opacity: 0.8;
+
+  @media (max-width: 920px) {
+    font-size: 18rem;
+  }
+}
+
+
+.main-title h1 {
+  width: 100%;
+  max-width: 500rem;
+  color: $text-color-1;
+  padding-bottom: 25rem;
+  font: 600 54rem/1.2 Gelasio, sans-serif;
+
+  @media (max-width: 920px) {
+    font-size: 33rem;
+    line-height: 1;
+  }
+}
+
+
+.main-title h1 span {
+  color: #1B75BB;
+  font: 600 54rem Gelasio, sans-serif;
+  line-height: 1.2;
+}
+
+@media (max-width: 920px) {
+  .main-title h1 span {
+    width: 100%;
+    font-size: 33rem;
+    line-height: .9;
+  }
+}
+
+.main-title p {
+  width: 347rem;
+  color: $text-color-1;
+  padding-bottom: 30rem;
+  font: 400 18rem Roboto, sans-serif;
+  line-height: 1.5; /* 28.8px */
+}
+
+@media (max-width: 920px) {
+  .main-title p {
+    width: 100%;
+    font: 400 17.3rem Roboto, sans-serif;
+  }
+}
+
+.main-title .btn {
+  margin-bottom: 98rem;
+}
